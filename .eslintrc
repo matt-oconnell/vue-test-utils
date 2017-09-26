@@ -1,0 +1,14 @@
+{
+  "extends": "../.eslintrc",
+  "plugins": [
+    "markdown"
+  ],
+  "env": {
+    "mocha": true
+  },
+  "globals": {
+    "mount": true,
+    "shallow": true,
+    "Component": true
+  }
+}
